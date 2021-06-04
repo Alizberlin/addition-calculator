@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="glass">
+            <!-- <div class="dashboard"> -->
+                <!-- <div class="user">
+                    <!-- <img class="profile-pic" src="pix/avtar.jpg" alt="profile picture">
+                    -->
+                    <!-- <h3>Simple Addition Calculator</h3> 
+                     <p>Pro Member</p> 
+                </div>
+                <div class="links">
+                     <div class="link">
+                        <img src="pix/twitch.png" alt="twitch picture">
+                        <h2>Streams</h2>
+                    </div>
+                    <div class="link">
+                        <img src="pix/steam.png" alt="Games picture">
+                        <h2>Games</h2>
+                    </div>
+                    <div class="link">
+                        <img src="pix/upcoming.png" alt="news picture">
+                        <h2>New</h2>
+                    </div>
+                    <div class="link">
+                        <img src="pix/library.png" alt="Library picture">
+                        <h2>Library</h2>
+                    </div> 
+                </div>
+                <div class="pro">
+                     <h2>Join pro for free games</h2>
+                    <img src="pix/controller.png" alt="controller picture"> 
+                </div>
+            </div> --> 
+            <div class="games">
+                <div class="status">
+                    <h1>Lets add some numbers</h1>
+                    <input type="text" id="fnumber" placeholder="Write first number here">
+                    <input type="text" id="snumber" placeholder="Write second number here">
+                    <input type="submit" id="submit" value="Calculate">
+                    <h2 class="output"></h2>
+                </div>
+                <!-- <div class="cards"> -->
+                    
+                    <!-- <div class="card">
+                        <img src="pix/assassins.png" alt="icon">
+                        <div class="card-info">
+                            <h2>Assassins Creed Valhalla</h2>
+                            <p>PS5 Version</p>
+                            <div class="progress"></div>
+                        </div>
+                        <h2 class="percentage">60%</h2>
+                    </div>
+                    <div class="card">
+                        <img src="pix/assassins.png" alt="icon">
+                        <div class="card-info">
+                            <h2>Assassins Creed Valhalla</h2>
+                            <p>PS5 Version</p>
+                            <div class="progress"></div>
+                        </div>
+                        <h2 class="percentage">60%</h2>
+                    </div>
+                    <div class="card">
+                        <img src="pix/assassins.png" alt="icon">
+                        <div class="card-info">
+                            <h2>Assassins Creed Valhalla</h2>
+                            <p>PS5 Version</p>
+                            <div class="progress"></div>
+                        </div>
+                        <h2 class="percentage">60%</h2>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+<script>
+    
+     submit.addEventListener('click', function(){
+         var num1 = document.getElementById("fnumber").value;
+         console.log(num1);
+         var num2 = document.getElementById("snumber").value;
+
+         var submit = document.querySelector('#submit');
+         var output = document.querySelector('.output');
+         answer = (+num1 + +num2);
+         console.log(answer);
+         output.innerHTML = answer;
+        
+     });
+
+</script>
+
+
+
+</body>
+</html>
